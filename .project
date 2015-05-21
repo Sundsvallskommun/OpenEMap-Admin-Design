@@ -21,6 +21,13 @@
 		<project>OpenEMap-Admin-Services</project>
 		<project>EmailUtils</project>
 		<project>JavaMail</project>
+		<project>BouncyCastle</project>
+		<project>SAMLLoginProvider</project>
+		<project>SimpleSAMLUserAdapter</project>
+		<project>HttpCore</project>
+		<project>HttpClient</project>
+		<project>SLF4J</project>
+		<project>OpenEMap-SAML-UserAdapter</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>

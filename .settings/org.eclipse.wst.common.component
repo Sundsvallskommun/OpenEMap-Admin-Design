@@ -56,6 +56,27 @@
         <dependent-module archiveName="JavaMail.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/JavaMail/JavaMail">
             <dependency-type>uses</dependency-type>
         </dependent-module>
+        <dependent-module archiveName="BouncyCastle.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/BouncyCastle/BouncyCastle">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="SAMLLoginProvider.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/SAMLLoginProvider/SAMLLoginProvider">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="SimpleSAMLUserAdapter.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/SimpleSAMLUserAdapter/SimpleSAMLUserAdapter">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="HttpCore.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/HttpCore/HttpCore">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="HttpClient.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/HttpClient/HttpClient">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="SLF4J.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/SLF4J/SLF4J">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="OpenEMap-SAML-UserAdapter.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/OpenEMap-SAML-UserAdapter/OpenEMap-SAML-UserAdapter">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
         <property name="java-output-path" value="/OpenEMap-Admin-Design/build/classes"/>
         <property name="context-root" value="openemapadmin"/>
     </wb-module>
