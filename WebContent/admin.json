@@ -2,7 +2,7 @@
     "name": "Eldstad",
     "maxExtent": [
         487000,
-        6887000,
+        6855000,
         749144,
         7149144
     ],
@@ -16,7 +16,7 @@
     "layers": [
         {
             "name": "Topo",
-            "url": "http://extmap.sundsvall.se/geoserver/gwc/service/wms",
+            "url": "https://extmap.sundsvall.se/geoserver/gwc/service/wms",
             "params": {
                 "layers": "Lantmateriet:topowebbkartan_nedtonad",
                 "format": "image/png"
