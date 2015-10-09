@@ -1,4 +1,3 @@
-#!/usr/bin/env node
 var fs = require('graceful-fs');
 
 var SVGO = require('svgo');
@@ -42,8 +41,9 @@ function run() {
     try {
       fs.mkdirSync(dir);
     } catch(err) {
-      if(err.code != 'EEXIST')
-        throw err
+      if(err.code != 'EEXIST') {
+        throw err;
+      }
     }
   }
 
